@@ -36,6 +36,14 @@ public class AppTest
     }
 
     /**
+     * Test the return with empty parameter
+     */
+    public void testGoodbyeEmptyParameter()
+    {
+        assertEquals("Bah bye", App.goodbye());
+    }
+
+    /**
      * Test the return with a parameter
      */
     public void testHelloParameter()
